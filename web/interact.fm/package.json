@@ -1,0 +1,24 @@
+{
+  "name": "@interact/fm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@expo/next-adapter": "^2.1.27",
+    "@interact/color": "*",
+    "@interact/components": "*",
+    "@interact/tokens": "*",
+    "next": "9.5.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native-web": "^0.13.9"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.2.3",
+    "next-transpile-modules": "^4.1.0"
+  }
+}

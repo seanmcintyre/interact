@@ -1,0 +1,17 @@
+{
+  "parser": "typescript",
+  "printWidth": 70,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": [
+        "index.ts",
+        "config.ts"
+      ],
+      "options": {
+        "printWidth": 200
+      }
+    }
+  ]
+}

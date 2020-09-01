@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "downlevelIteration": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "jsx": "react",
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "lib": [
+          "es2015",
+          "es2016",
+          "es2017",
+          "es2018",
+          "es2019",
+          "es2020",
+          "esnext",
+          "dom"
+      ],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "strict": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "es2015",
+      "types": [
+          "jest",
+          "node",
+          "react-dom",
+          "react",
+      ]
+  },
+  "paths": {
+    "@interact/color": ["./color/index.ts"],
+    "@interact/components": ["./components/index.ts"],
+    "@interact/tokens": ["./tokens/index.ts"]
+  }
+}

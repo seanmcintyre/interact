@@ -1,0 +1,14 @@
+{
+  "name": "@interact/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "files": [
+    "./"
+  ],
+  "dependencies": {
+    "@types/chroma-js": "^2.0.0",
+    "chroma-js": "^2.1.0",
+    "polished": "^3.6.6"
+  }
+}
