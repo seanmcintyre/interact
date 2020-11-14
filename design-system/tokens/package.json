@@ -6,9 +6,11 @@
   "files": [
     "./"
   ],
+  "devDependencies": {
+    "@types/chroma-js": "^2.1.1"
+  },
   "dependencies": {
-    "@types/chroma-js": "^2.0.0",
     "chroma-js": "^2.1.0",
-    "polished": "^3.6.6"
+    "polished": "^4.0.3"
   }
 }

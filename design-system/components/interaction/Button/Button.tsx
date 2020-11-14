@@ -1,23 +1,9 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 
 import { style } from './Button.style';
+import { Props } from './Button.types';
 
-import { Node } from '../../Node';
-// import { useCSS } from '../../useCSS';
-
-// export function Button({ ...props }) {
-//   return <Node accessibilityRole="button" {...props} />;
-// }
-
-interface Props {
-  children?: any;
-  className?: string;
-  element?: 'a' | 'button' | 'span';
-  format?: 'primary';
-  size?: number;
-  status?: 'positive' | 'negative';
-  variant?: 'common' | 'outline';
-}
+import { Node, useCSS } from '../../../core';
 
 export function Button({
   element = 'button',
@@ -29,9 +15,12 @@ export function Button({
 }: Props) {
   const css = useCSS(style, { format, status, size, variant });
 
-  return <Node element={element} css={css} {...props} />;
-}
-
-function useCSS(style: (props: any) => string, props: any) {
-  return useMemo(() => style(props), Object.values(props));
+  return (
+    <Node
+      // accessibilityRole="button"
+      element={element}
+      css={css}
+      {...props}
+    />
+  );
 }

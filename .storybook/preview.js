@@ -29,7 +29,8 @@ const StyleSheet = createGlobalStyle`
   }
 
   html {
-    font-family: "iA Writer Duo S", serif;
+    /* font-family: "iA Writer Duo S", serif; */
+    font-family: "Inter", sans-serif;
     line-height: 1.75;
     box-sizing: border-box;
   }

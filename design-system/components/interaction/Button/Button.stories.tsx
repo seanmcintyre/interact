@@ -1,10 +1,10 @@
 import React from 'react';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 
 import { Button } from './Button';
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/Interaction/Button',
   component: Button,
 };
 
@@ -82,6 +82,9 @@ export function Variant() {
         Button
       </Button>
       <Button variant="outline" className={className}>
+        Button
+      </Button>
+      <Button variant="minimal" className={className}>
         Button
       </Button>
     </>
